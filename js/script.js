@@ -2,7 +2,7 @@
 
 const numberOfFilms = +prompt("Number of films you watch:", "");
 
-let personalMovieDB = {
+const personalMovieDB = {
     count: numberOfFilms,
     movies: {},
     actors: {},
